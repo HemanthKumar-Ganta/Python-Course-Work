@@ -1,0 +1,9 @@
+count = 0
+i = 2
+while count < 10:
+    if i % 3 == 0:
+        i += 2
+        continue
+    print(i)
+    count += 1
+    i += 2

@@ -1,0 +1,16 @@
+n = list(map(int,input("enter a numbers:").split()))
+sum = 0
+count = 0
+for i in n:
+    if i < 0:
+        break
+    elif i >= 0:
+        count += 1
+        sum += i
+if count > 0:
+
+    average = sum / count
+    print(average)
+else:
+    print("no numbers entered to calculate the average")
+
