@@ -1,0 +1,9 @@
+import random
+n = random.randint(1,100)
+choice = int(input("enter a number:"))
+if n == choice:
+	print("correct number")
+elif n > choice:
+	print("too small")
+else:
+	print("too large")

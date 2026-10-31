@@ -1,0 +1,14 @@
+n = int(input("enter marks scored:"))
+max_marks = 100
+if n < 0 or n > max_marks:
+    print("invalid_marks")
+elif 85 <= n <= 100:
+    print("Grade:", "A")
+elif 75<= n < 85:
+    print("Grade:", "B")
+elif 50 <= n < 75:
+    print("Grade:","C")
+elif 35 <= n < 50:
+    print("Grade:","D")
+else:
+    print("Fail")

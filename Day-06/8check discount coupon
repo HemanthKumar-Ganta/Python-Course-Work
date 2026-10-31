@@ -1,0 +1,9 @@
+n = float(input("enter amount:"))
+coupon = "save10"
+s = input("enter the coupon")
+if s == coupon:
+    m = n * 10 / 100
+    final_price = n - m
+    print("final_price:" , final_price)
+else:
+    print("No coupon applied")

@@ -1,0 +1,13 @@
+n = float(input("enter the price of product:"))
+s = float(input("enter the discount:"))
+if 1000 <= n <= 2000:
+	discount = n * s / 100
+	final_amount = n - discount
+	print(final_amount)
+elif 2000 < n <= 5000:
+	discount = n * s /100
+	final_amount = n - discount
+	print(final_amount)
+
+else:
+	print("no discount:",n)

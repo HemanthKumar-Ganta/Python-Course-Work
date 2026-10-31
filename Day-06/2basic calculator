@@ -1,0 +1,17 @@
+n = float(input("enter the number:"))
+s = float(input("enter the number:"))
+op = input("enter the operation:")
+if op == "+":
+    print(n + s)
+elif op == "-":
+    print(n- s)
+elif op == "*":
+    print(n*s)
+elif op == "/":
+    if s != 0:
+
+        print(n / s)
+    else:
+        print("connot divide by zero")
+else:
+    print("no operation")

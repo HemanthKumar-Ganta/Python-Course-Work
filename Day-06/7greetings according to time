@@ -1,0 +1,9 @@
+n = int(input("enter a time:"))
+if 6 <= n <= 11:
+    print("Good morning!")
+elif 11 < n <= 15:
+    print("Good afternoon!")
+elif 15 < n <= 18:
+    print("Good evening!")
+else:
+    print("Good night!")
