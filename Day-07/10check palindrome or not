@@ -1,0 +1,12 @@
+
+n = input("enter:")
+left = 0
+right = len(n) - 1
+while left <= right:
+    if n[left] != n[right]:
+        print("not a palindrome")
+        break
+    left += 1
+    right -= 1
+else:
+    print("palindrome")

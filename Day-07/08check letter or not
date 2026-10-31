@@ -1,0 +1,5 @@
+n = input("enter:")
+if n.isalpha():
+    print("letter")
+else:
+    print("not a letter")

@@ -1,0 +1,6 @@
+n = int(input("enter a number1:"))
+n1 = int(input("enter a number2:"))
+if n >= n1:
+    print("largest number:",n)
+else:
+    print("largest number:",n1)
