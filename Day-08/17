@@ -1,0 +1,26 @@
+score = int(input("Enter performance score: "))
+years = int(input("Enter years of service: "))
+
+if score >= 90:
+    rating = "Excellent"
+    if years >= 5:
+        bonus = 10000
+    else:
+        bonus = 5000
+
+elif score >= 70:
+    rating = "Good"
+    if years >= 5:
+        bonus = 5000
+    else:
+        bonus = 3000
+
+else:
+    rating = "Average"
+    if years >= 5:
+        bonus = 2000
+    else:
+        bonus = 1000
+
+print("Rating:", rating)
+print("Bonus: ₹", bonus)

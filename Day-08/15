@@ -1,0 +1,16 @@
+age = int(input("enter a age:"))
+price = 200
+matinee = "yes"
+if age < 12 or age > 65:
+    show = input("enter the show:").lower()
+    if show == matinee:
+        d = price * (10 /100)
+        total = price - d
+        print("final price:",total)
+    else:
+        print(price)
+else:
+    print(price)
+
+
+

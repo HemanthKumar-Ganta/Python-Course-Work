@@ -1,0 +1,9 @@
+user_name = input("enter the username:")
+password = input("enter the password:")
+if user_name == "Shiva@123":
+    if password == "Hemanthkumar@123":
+        print("access granted")
+    else:
+        print("incorrect password")
+else:
+    print("invalid user_name")

@@ -1,0 +1,22 @@
+age = int(input("Enter your age: "))
+genre = input("Enter your favorite genre (Mystery, Fantasy, or Science Fiction): ").lower()
+
+if age < 13:
+    if genre == "mystery":
+        print("Recommended book: The Boxcar Children")
+    elif genre == "fantasy":
+        print("Recommended book: The Hobbit")
+    elif genre == "science fiction":
+        print("Recommended book: A Wrinkle in Time")
+    else:
+        print("Genre not available")
+
+else:
+    if genre == "mystery":
+        print("Recommended book: The Hound of the Baskervilles")
+    elif genre == "fantasy":
+        print("Recommended book: Harry Potter and the Philosopher's Stone")
+    elif genre == "science fiction":
+        print("Recommended book: Dune")
+    else:
+        print("Genre not available")

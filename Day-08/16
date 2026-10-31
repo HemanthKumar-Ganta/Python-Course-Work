@@ -1,0 +1,17 @@
+amount = int(input("enter a amount:"))
+distance = float(input("enter a distance:"))
+if 1000 <= amount <= 2000:
+    if distance <= 20:
+        total = amount + 40
+        
+    else:
+        total = amount + 28
+        
+elif amount > 2000:
+    if distance > 20:
+        total = amount + 100
+    else:
+        total = amount
+else:
+    total = amount
+print("total amount :",total)

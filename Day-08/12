@@ -1,0 +1,14 @@
+amount = int(input("enter the purchase amount:"))
+membership = "yes"
+if amount > 100:
+    m = input("enter membership status:").lower()
+    if membership == m:
+        discount = amount * (20/100)
+        total = amount - discount
+        print("final amount:",total)
+    else:
+        discount = amount * (10/100)
+        total = amount - discount
+        print("final amount:",total)
+else:
+    print("no discount" , amount)

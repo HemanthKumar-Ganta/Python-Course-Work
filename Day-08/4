@@ -1,0 +1,10 @@
+num = int(input("enter a number:"))
+if num % 2 == 0:
+    if num > 10:
+        print("the number is even")
+        print("the number is greateer than 10")
+    else:
+        print("the number is even")
+        print("the number is less than 10")
+else:
+    print("the number is odd")

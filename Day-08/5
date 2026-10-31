@@ -1,0 +1,15 @@
+age = int(input("enter the age:"))
+height = float(input("enter the height:"))
+if age < 12:
+    if height < 4:
+        print("the price for a theme park is:","$10")
+    else:
+        print("the price for a theme park is:", "$15")
+else:
+    if age >= 12:
+        if height < 4:
+            print("the price for a theme park is:","$15")
+        else:
+            print("the price for a theme park is:","$20")
+              
+              

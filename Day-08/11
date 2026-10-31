@@ -1,0 +1,6 @@
+l = list(map(int,input("enter the numbers:").split()))
+if len(l) == 3:
+    l.sort()
+    print(l)
+else:
+    print("please enter exactly three numbers")

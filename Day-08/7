@@ -1,0 +1,21 @@
+user = input("enter type of food:").lower()
+if user == "burger":
+    choice = int(input("enter 1 for fries or 2 for only burgger:"))
+    if choice == 1:
+        print("burger")
+        print("i want fries also")
+    elif choice == 2:
+         print("burger")
+    else:
+        print("invalid choice")
+elif user == "pizza":
+        choice = int(input("enter 1 for cheese or 2 for only pizza:"))
+        if choice == 1:
+            print("pizza")
+            print("i want extra cheese also")
+        elif choice == 2:
+            print("pizza")
+        else:
+             print("invalid choice")
+else:
+     print("we don't have that food")

@@ -1,0 +1,10 @@
+age = int(input("enter age:"))
+citizenship = "yes"
+if age >= 18:
+    n = input("enter citizenship status:").lower()
+    if citizenship == n:
+        print("You are eligible to vote")
+    else:
+        print("You are not eligible to vote")
+else:
+    print("You are not eligible to vote")

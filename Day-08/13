@@ -1,0 +1,10 @@
+char = input("enter a char:")
+if len(char) == 1:
+    if char in "aeiouAEIOU":
+        print("vowel")
+    elif char.isalpha():
+        print("consonant")
+    else:
+        print("neither")
+else:
+    print("enter a single char")
