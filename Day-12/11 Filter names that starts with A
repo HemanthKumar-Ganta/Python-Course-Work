@@ -1,0 +1,3 @@
+names = ["Arun", "Rahul", "Anil", "Kiran", "Ajay", "Priya"]
+l = [i for i in names if i.startswith("A")]
+print(l)

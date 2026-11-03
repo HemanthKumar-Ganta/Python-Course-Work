@@ -1,0 +1,4 @@
+### Convert characters in a string to uppercase.
+n = input()
+r = [i.upper() for i in n]
+print(r)

@@ -1,0 +1,6 @@
+### Find lengths of words in a list of words.??
+n = ['Python', 'Java', 'HTML', 'SQL']
+
+l = [len(i) for i in n]
+
+print(l)

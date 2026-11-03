@@ -1,0 +1,3 @@
+words = ["Python", "Java", "Programming", "SQL", "Developer", "AI"]
+l = [i for i in words if len(i) > 5]
+print(l)

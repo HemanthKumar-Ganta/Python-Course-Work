@@ -1,0 +1,4 @@
+### Extract vowels from a string.?
+n = input("enter: ")
+l = [ i for i in n if i in "aeiouAEIOU"]
+print(l)
