@@ -1,0 +1,31 @@
+p1 = input("enter product 1 name : " )
+p1_quantity = int(input("enter quantity: "))
+p1_cost = int(input("enter cost: "))
+total1 = p1_quantity * p1_cost
+p2 = input("enter product 2 name : " )
+p2_quantity = int(input("enter quantity: "))
+p2_cost = int(input("enter cost: "))
+total2 = p2_quantity * p2_cost
+p3 = input("enter product 3 name : " )
+p3_quantity = int(input("enter quantity: "))
+p3_cost = int(input("enter cost: "))
+total3 = p3_quantity * p3_cost
+p4 = input("enter product 4 name : " )
+p4_quantity = int(input("enter quantity: "))
+p4_cost = int(input("enter cost: "))
+total4 = p4_quantity * p4_cost
+p5 = input("enter product 5 name : " )
+p5_quantity = int(input("enter quantity: "))
+p5_cost = int(input("enter cost: "))
+total5 = p5_quantity * p5_cost
+final_amount = total1 + total2 + total3 + total4 + total5
+print("=========SHOPPING BILL================")
+print("Product:", p1, "Quantity:", p1_quantity, "Price:", p1_cost, "Total:", total1)
+print("Product:", p2, "Quantity:", p2_quantity, "Price:", p2_cost, "Total:", total2)
+print("Product:", p3, "Quantity:", p3_quantity, "Price:", p3_cost, "Total:", total3)
+print("Product:", p4, "Quantity:", p4_quantity, "Price:", p4_cost, "Total:", total4)
+print("Product:", p5, "Quantity:", p5_quantity, "Price:", p5_cost, "Total:", total5)
+
+print("-----------------------------------")
+print("Final Bill Amount:", final_amount)
+print("===================================")

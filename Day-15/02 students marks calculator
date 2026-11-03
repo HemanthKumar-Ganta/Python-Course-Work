@@ -1,0 +1,17 @@
+### Write a Python program to calculate the total marks and average marks of a student in five subjects. Display the student name, individual subject marks, total marks and average marks. 
+name = input("enter student name: ")
+telugu = int(input("enter telugu marks: "))
+hindi = int(input("enter hindi marks: "))
+english = int(input("enter english marks: "))
+maths = int(input("enter maths marks: "))
+social = int(input("enter social marks: "))
+total = telugu + hindi + english + maths + social 
+average = float(total / 5) 
+print("name of the student: " , name)
+print("telugu marks:" , telugu)
+print("hindi marks : " , hindi)
+print("english marks:" , english)
+print("maths marks:" , maths)
+print("social marks:", social)
+print("total marks get:",total)
+print("average marks:" , average)
