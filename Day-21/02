@@ -1,0 +1,8 @@
+## write a program to multiply the smallestt and 2nd largest number in the array
+n = int(input())
+m = list(map(int,input().split()))[:n]
+m.sort()
+smallest = m[0]
+largest = m[-2]
+result = smallest * largest
+print(result)

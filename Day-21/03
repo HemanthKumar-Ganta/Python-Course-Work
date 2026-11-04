@@ -1,0 +1,7 @@
+## write a program to count words starting with a number in a string 
+n = input("enter input : ")
+count = 0
+for i in n:
+    if i.isdigit():
+        count += 1
+print(count)

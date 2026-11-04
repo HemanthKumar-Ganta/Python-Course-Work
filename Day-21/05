@@ -1,0 +1,7 @@
+### write a python program for to multiple the 2nd smallest element and 3rd smallest element in an array 
+n = int(input("enter a size: "))
+l = list(map(int,input().split()))
+l.sort()
+second_smallest = l[1]
+third_smallest = l[2]
+print(second_smallest * third_smallest)

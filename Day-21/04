@@ -1,0 +1,7 @@
+### swap values
+a = 10
+b = 21
+temp = a
+a = b
+b = temp
+print(a,b)

@@ -1,0 +1,15 @@
+n = int(input())
+m = list(map(int,input().split()))[:n]
+l = []
+sum = 0
+for i in m:
+    if i in l:
+        i+=1
+    else:
+        l.append(i)
+for i in l:
+    if i % 2 == 0:
+        i += 1
+    else:
+        sum += i
+print(sum)

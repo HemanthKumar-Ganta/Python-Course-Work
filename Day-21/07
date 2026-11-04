@@ -1,0 +1,5 @@
+### write a program to display next lower case characters of input character
+n = input().upper()
+s = ord(n)
+r = s+1
+print(chr(r).lower())

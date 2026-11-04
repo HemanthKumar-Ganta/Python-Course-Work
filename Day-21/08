@@ -1,0 +1,14 @@
+#n = int(input())
+#m = list(map(int,input().split()))[:n]
+#for i in m:
+#   if i % 5 == 0 and i % 3 != 0:
+#      print(i)
+
+
+n = int(input())
+m = list(map(int,input().split()))[:n]
+l = []
+for i in m:
+    if i % 5 == 0 and i % 3 != 0:
+        l.append(i)
+print(l)

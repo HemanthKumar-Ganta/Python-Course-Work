@@ -1,0 +1,7 @@
+### write a python program for to find the difference between  smallest element and 2nd smallest element in an array 
+n = int(input("enter a size: "))
+l = list(map(int,input().split()))
+l.sort()
+second_smallest = l[0]
+third_smallest = l[1]
+print(abs(second_smallest - third_smallest))
