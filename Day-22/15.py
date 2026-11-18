@@ -1,0 +1,5 @@
+n = list(map(int,input("enter a numbers :").split()))
+position = int(input("enter position"))
+element = int(input("enter the element :"))
+n.insert(position,element)
+print(n)
