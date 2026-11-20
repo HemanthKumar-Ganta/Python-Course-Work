@@ -1,0 +1,5 @@
+s = input("enter a string :")
+old = input("enter character :")
+new = input("enter a character :")
+s = s.replace(old , new)
+print(s)
